@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ISBN</string>
+    <string name="show_message_button">Show Message</string>
+    <string name="upload_image_button">Upload Image</string>
+    <string name="isbn_10_text_view" />
+    <string name="valid_10_label" >"ISBN-10 : "</string>
+    <string name="isbn_13_text_view" />
+    <string name="valid_13_label" >"ISBN-13 : "</string>
+</resources>

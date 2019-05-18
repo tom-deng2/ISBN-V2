@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shangjian.isbn.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/mImageView"
+        android:layout_width="543dp"
+        android:layout_height="559dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/isbn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showMessageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginEnd="268dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/show_message_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadImageButton" />
+
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/upload_image_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isbn13TextView" />
+
+    <TextView
+        android:id="@+id/isbn10TextView"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/isbn_10_text_view"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mImageView" />
+
+    <TextView
+        android:id="@+id/isbn13TextView"
+        android:layout_width="195dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="244dp"
+        android:text="@string/isbn_13_text_view"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isbn10TextView" />
+
+
+</android.support.constraint.ConstraintLayout>
